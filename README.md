@@ -29,3 +29,14 @@ http://localhost:3000/api/v2/seed
 
 * mongoDB
 * Nest
+
+
+5. docker 
+```
+docker-compose -f docker-compose.prod.yml --env-file .env.prod up --build
+```
+
+run
+```
+docker-compose -f docker-compose.prod.yml --env-file .env.prod up -d
+```
